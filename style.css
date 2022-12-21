@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:hsl(225, 100%, 94%);
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container {
+    width: 400px;
+    height: 650px;
+    border-radius: 15px;
+    margin: 20px auto;
+    background: white;
+    
+
+}
+ .text p {
+    text-align: center;
+    padding-top: 22px;
+    margin: 0 34px;
+ }
+
+ .text h1 {
+    padding-top: 35px;
+    text-align: center;
+ }
+.container .chica img {
+    width: 400px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+}
+
+.annualPlan {
+
+    background: hsl(225, 100%, 98%);
+    justify-content: space-around;
+    margin: 20px 40px;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+a {
+    cursor: pointer;
+    
+}
+.annualPlan a:hover {
+    color: hsl(278, 27%, 67%);
+    text-decoration: none;
+}
+
+/*aqui le puse relieve al boton pero no es necesario en este ejercicio*/
+/*.annualPlan .music:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(63, 58, 58);
+    cursor: pointer;
+    border-radius: 50%;
+}
+*/
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px ;
+
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.buttonBleu {
+    background: hsl(245, 75%, 52%);
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+.buttonGris{
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+    background:white;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+.buttonBleu:hover {
+   
+background:  hsl(278, 27%, 67%);
+}
+
+.buttonGris:hover {
+    color: black;
+
+}
